@@ -24,7 +24,7 @@ const UnknownAlertCondition = React.createClass({
     const content = (
       <Col md={12}>
         <Alert bsStyle="warning">
-          Could not resolve condition type. This is most likely caused by a missing plugin in your Graylog setup.
+          Could not resolve condition type. This is most likely caused by a missing plugin in your DNS AM-Trap setup.
         </Alert>
       </Col>
     );

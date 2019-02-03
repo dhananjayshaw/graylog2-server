@@ -21,7 +21,7 @@ const AlertConditionsPage = React.createClass({
         <div>
           <PageHeader title="Manage alert conditions">
             <span>
-              Alert conditions define situations that require your attention. Graylog will check those conditions
+              Alert conditions define situations that require your attention. DNS AM-Trap will check those conditions
               periodically and notify you when their statuses change.
             </span>
 

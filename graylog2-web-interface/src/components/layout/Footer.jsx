@@ -17,14 +17,14 @@ const Footer = React.createClass({
     if (this._isLoading()) {
       return (
         <div id="footer">
-          Graylog {Version.getFullVersion()}
+          DNS AM-Trap {Version.getFullVersion()}
         </div>
       );
     }
 
     return (
       <div id="footer">
-        Graylog {this.state.system.version} on {this.state.system.hostname} ({this.state.jvm.info})
+        DNS AM-Trap {this.state.system.version} on {this.state.system.hostname} ({this.state.jvm.info})
       </div>
     );
   },

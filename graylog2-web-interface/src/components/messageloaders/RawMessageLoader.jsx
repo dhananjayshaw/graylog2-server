@@ -189,7 +189,7 @@ const RawMessageLoader = React.createClass({
                      value={this.state.message} onChange={this._bindValue} rows={3} required />
               <Input id="remoteAddress" name="remoteAddress" type="text"
                      label={<span>Source IP address <small>(optional)</small></span>}
-                     help={`Remote IP address to use as message source. Graylog will use ${this.DEFAULT_REMOTE_ADDRESS} by default.`}
+                     help={`Remote IP address to use as message source. DNS AM-Trap will use ${this.DEFAULT_REMOTE_ADDRESS} by default.`}
                      value={this.state.remoteAddress} onChange={this._bindValue} />
             </fieldset>
             {inputIdSelector}

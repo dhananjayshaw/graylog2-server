@@ -145,7 +145,7 @@ const AuthProvidersConfig = React.createClass({
         <span>
           <PageHeader title="Authentication Providers" subpage>
             <span>The following authentication providers executed in order during login. Disabled providers will be
-              skipped.<br />A user is authenticated by the first matching provider, a successful match can cause a Graylog account for
+              skipped.<br />A user is authenticated by the first matching provider, a successful match can cause a DNS AM-Trap account for
               this user to be created.
             </span>
           </PageHeader>

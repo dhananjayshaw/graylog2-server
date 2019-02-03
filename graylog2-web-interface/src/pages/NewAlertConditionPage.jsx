@@ -21,7 +21,7 @@ const NewAlertConditionPage = React.createClass({
         <div>
           <PageHeader title="New alert condition">
             <span>
-              Define an alert condition and configure the way Graylog will notify you when that condition is satisfied.
+              Define an alert condition and configure the way DNS AM-Trap will notify you when that condition is satisfied.
             </span>
 
             <span>

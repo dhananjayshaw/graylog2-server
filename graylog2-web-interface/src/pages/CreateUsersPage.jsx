@@ -55,8 +55,8 @@ const CreateUsersPage = React.createClass({
         <span>
           <PageHeader title="Create new user" subpage>
             <span>
-              Use this page to create new Graylog users. The users and their permissions created here are not limited
-              to the web interface but valid and required for the REST APIs of your Graylog server nodes, too.
+              Use this page to create new DNS AM-Trap users. The users and their permissions created here are not limited
+              to the web interface but valid and required for the REST APIs of your DNS AM-Trap server nodes, too.
             </span>
           </PageHeader>
           <Row>

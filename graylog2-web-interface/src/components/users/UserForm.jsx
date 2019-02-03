@@ -210,7 +210,7 @@ const UserForm = React.createClass({
                 <span>
                   <Col smOffset={3} sm={9}>
                     <Alert bsStyle="warning" role="alert">
-                      The admin user can only be modified in your Graylog server configuration file.
+                      The admin user can only be modified in your DNS AM-Trap server configuration file.
                     </Alert>
                   </Col>
                   <div className="clearfix" />
@@ -301,7 +301,7 @@ const UserForm = React.createClass({
             {user.read_only ?
               <Col smOffset={3} sm={9}>
                 <Alert bsStyle="warning" role="alert">
-                Please edit your Graylog server configuration file to change the admin password.
+                Please edit your DNS AM-Trap server configuration file to change the admin password.
               </Alert>
               </Col>
             :

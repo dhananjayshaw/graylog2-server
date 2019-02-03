@@ -91,7 +91,7 @@ const IndexSetsComponent = React.createClass({
     const isReadOnly = !indexSet.writable ? <Label key={`index-set-${indexSet.id}-readOnly-label`} bsStyle="info">read only</Label> : '';
     let description = indexSet.description;
     if (indexSet.default) {
-      description += `${description.endsWith('.') ? '' : '.'} Graylog will use this index set by default.`;
+      description += `${description.endsWith('.') ? '' : '.'} DNS AM-Trap will use this index set by default.`;
     }
 
     let statsString;

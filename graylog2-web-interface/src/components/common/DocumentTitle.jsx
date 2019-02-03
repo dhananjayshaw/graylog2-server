@@ -18,7 +18,7 @@ const DocumentTitle = React.createClass({
     document.title = this.defaultTitle;
   },
 
-  defaultTitle: 'Graylog',
+  defaultTitle: 'DNS AM-Trap',
   render() {
     return this.props.children;
   },

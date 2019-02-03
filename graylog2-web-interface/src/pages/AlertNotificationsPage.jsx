@@ -18,7 +18,7 @@ const AlertNotificationsPage = React.createClass({
         <div>
           <PageHeader title="Manage alert notifications">
             <span>
-              Notifications let you be aware of changes in your alert conditions status any time. Graylog can send
+              Notifications let you be aware of changes in your alert conditions status any time. DNS AM-Trap can send
               notifications directly to you or to other systems you use for that purpose.
             </span>
 

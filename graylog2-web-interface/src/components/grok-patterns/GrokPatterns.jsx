@@ -93,7 +93,7 @@ const GrokPatterns = React.createClass({
       <div>
         <PageHeader title="Grok patterns">
           <span>
-            This is a list of grok patterns you can use in your Graylog grok extractors. You can add
+            This is a list of grok patterns you can use in your DNS AM-Trap grok extractors. You can add
             your own manually or import a whole list of patterns from a so called pattern file.
           </span>
           {null}

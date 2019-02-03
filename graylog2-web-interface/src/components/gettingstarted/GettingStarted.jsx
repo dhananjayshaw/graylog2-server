@@ -117,7 +117,7 @@ const GettingStarted = React.createClass({
           <Grid>
             <Row>
               <Col mdPush={3} md={6} className="content content-head text-center" style={{ paddingBottom: '15px' }}>
-                <Spinner text="Loading Graylog Getting started guide ..." />
+                <Spinner text="Loading DNS AM-Trap Getting started guide ..." />
               </Col>
             </Row>
           </Grid>

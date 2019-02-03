@@ -70,7 +70,7 @@ const NewUserForm = React.createClass({
       <span className="help-block">
         Assign the relevant roles to this user to grant them access to the relevant streams and dashboards.<br />
         The <em>Reader</em> role grants basic access to the system and will be enabled.<br />
-        The <em>Admin</em> role grants access to everything in Graylog.
+        The <em>Admin</em> role grants access to everything in DNS AM-Trap.
       </span>
     );
     const roles = this.state.newRoles;

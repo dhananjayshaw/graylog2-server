@@ -36,7 +36,7 @@ const TimesList = React.createClass({
 
           <p className="description">
             Dealing with timezones can be confusing. Here you can see the timezone applied to different components of your system.
-            You can check timezone settings of specific graylog-server nodes on their respective detail page.
+            You can check timezone settings of specific DNS AM-Trap-server nodes on their respective detail page.
           </p>
 
           <dl className="system-dl">
@@ -44,7 +44,7 @@ const TimesList = React.createClass({
             <dd><Timestamp dateTime={time} format={timeFormat} /></dd>
             <dt>Your web browser:</dt>
             <dd><Timestamp dateTime={time} format={timeFormat} tz={'browser'} /></dd>
-            <dt>Graylog server:</dt>
+            <dt>DNS AM-Trap server:</dt>
             <dd><Timestamp dateTime={time} format={timeFormat} tz={serverTimezone} /></dd>
           </dl>
         </Col>
