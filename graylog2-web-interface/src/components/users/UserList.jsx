@@ -127,7 +127,7 @@ const UserList = createReactClass({
         </LinkContainer>
       );
 
-      const tooltip = <Tooltip id="system-user">System users can only be modified in the Graylog configuration file.</Tooltip>;
+      const tooltip = <Tooltip id="system-user">System users can only be modified in the DNS AM-Trap configuration file.</Tooltip>;
       actions = (
         <span>
           <OverlayTrigger placement="left" overlay={tooltip}>

@@ -75,7 +75,7 @@ const GraylogClusterOverview = createReactClass({
     return (
       <Row className="content">
         <Col md={12}>
-          <h2 style={{ marginBottom: 10 }}>Graylog cluster</h2>
+          <h2 style={{ marginBottom: 10 }}>DNS AM-Trap cluster</h2>
           {content}
           <hr />
           <Row>

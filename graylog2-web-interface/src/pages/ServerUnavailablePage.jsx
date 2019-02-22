@@ -102,7 +102,7 @@ class ServerUnavailablePage extends React.Component {
           <Modal.Body>
             <div>
               <p>
-                We are experiencing problems connecting to the Graylog server running on <i>{URLUtils.qualifyUrl('')}</i>.
+                We are experiencing problems connecting to the DNS AM-Trap server running on <i>{URLUtils.qualifyUrl('')}</i>.
                 Please verify that the server is healthy and working correctly.
               </p>
               <p>You will be automatically redirected to the previous page once we can connect to the server.</p>

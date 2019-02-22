@@ -26,7 +26,7 @@ const SidecarNewConfigurationPage = createReactClass({
             </span>
 
             <span>
-              Read more about the Graylog Sidecar in the documentation.
+              Read more about the DNS AM-Trap Sidecar in the documentation.
             </span>
 
             <ButtonToolbar>

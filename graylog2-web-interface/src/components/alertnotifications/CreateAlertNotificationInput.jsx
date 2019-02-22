@@ -124,7 +124,7 @@ const CreateAlertNotificationInput = createReactClass({
     const notificationTypeHelp = (
       <span>
         Select the notification type that will be used. You can find more types in the{' '}
-        <a href="https://marketplace.graylog.org/" target="_blank" rel="noopener noreferrer">Graylog Marketplace</a>.
+        <a href="https://marketplace.graylog.org/" target="_blank" rel="noopener noreferrer">DNS AM-Trap Marketplace</a>.
       </span>
     );
 

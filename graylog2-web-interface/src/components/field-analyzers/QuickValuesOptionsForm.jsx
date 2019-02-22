@@ -65,7 +65,7 @@ class QuickValuesOptionsForm extends React.Component {
 
   render() {
     const fieldOptions = this.props.stackedFieldsOptions
-      .filter(field => !field.name.startsWith('gl2_')) // Do not include Graylog internal fields
+      .filter(field => !field.name.startsWith('gl2_')) // Do not include DNS AM-Trap internal fields
       .filter(field => field.name !== this.props.field) // Do not include the main QuickValues field
       .map((field) => {
         return { value: field.name, label: field.name };

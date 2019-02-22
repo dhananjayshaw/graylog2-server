@@ -3,7 +3,7 @@ import React from 'react';
 import { Alert } from 'react-bootstrap';
 
 /**
- * Component used to represent list of entities in Graylog, where each entity will have a title, description,
+ * Component used to represent list of entities in DNS AM-Trap , where each entity will have a title, description,
  * action buttons, etc. You need to use this component alongside `EntityListItem` in order to get a similar
  * look and feel among different entities.
  */

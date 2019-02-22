@@ -184,7 +184,7 @@ const SearchSidebar = createReactClass({
           <Modal.Title>Used indices</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>Graylog is intelligently selecting the indices it needs to search upon based on the time frame
+          <p>DNS AM-Trap is intelligently selecting the indices it needs to search upon based on the time frame
             you selected.
             This list of indices is mainly useful for debugging purposes.</p>
           <h4>Indices used for this search:</h4>

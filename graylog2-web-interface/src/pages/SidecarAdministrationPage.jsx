@@ -26,12 +26,12 @@ const SidecarAdministrationPage = createReactClass({
         <span>
           <PageHeader title="Collectors Administration">
             <span>
-              The Graylog collectors can reliably forward contents of log files or Windows EventLog from your servers.
+              The DNS AM-Trap collectors can reliably forward contents of log files or Windows EventLog from your servers.
             </span>
 
             <span>
               Read more about collectors and how to set them up in the
-              {' '}<DocumentationLink page={DocsHelper.PAGES.COLLECTOR} text="Graylog documentation" />.
+              {' '}<DocumentationLink page={DocsHelper.PAGES.COLLECTOR} text="DNS AM-Trap documentation" />.
             </span>
 
             <ButtonToolbar>

@@ -129,7 +129,7 @@ const SimulationResults = createReactClass({
         </Col>
         <Col md={6}>
           <h1>Original message</h1>
-          <p>This is the original message loaded from Graylog.</p>
+          <p>This is the original message loaded from DNS AM-Trap .</p>
           <div className="message-preview-wrapper">
             {originalMessagePreview}
           </div>

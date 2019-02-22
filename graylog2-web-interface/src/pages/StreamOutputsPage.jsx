@@ -41,11 +41,11 @@ const StreamOutputsPage = createReactClass({
               </h1>
 
               <p className="description">
-                Graylog nodes can forward messages of streams via outputs. Launch or terminate as many outputs as you want here.
+                DNS AM-Trap nodes can forward messages of streams via outputs. Launch or terminate as many outputs as you want here.
                 You can also reuse outputs that are already running for other streams.
 
                 A global view of all configured outputs is available <a href="@routes.OutputsController.index()">here</a>.
-                You can find output plugins on <a href="https://marketplace.graylog.org/" target="_blank">the Graylog Marketplace</a>.
+                You can find output plugins on <a href="https://marketplace.graylog.org/" target="_blank">the DNS AM-Trap Marketplace</a>.
               </p>
 
               <SupportLink>

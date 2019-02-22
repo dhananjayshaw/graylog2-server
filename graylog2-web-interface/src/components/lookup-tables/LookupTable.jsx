@@ -104,7 +104,7 @@ class LookupTable extends React.Component {
         </Col>
         <Col md={6}>
           <h2>Test lookup</h2>
-          <p>You can manually query the lookup table using this form. The data will be cached as configured by Graylog.</p>
+          <p>You can manually query the lookup table using this form. The data will be cached as configured by DNS AM-Trap .</p>
           <form onSubmit={this._lookupKey}>
             <fieldset>
               <Input type="text"

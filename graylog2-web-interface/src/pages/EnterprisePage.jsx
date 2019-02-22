@@ -25,14 +25,14 @@ const EnterprisePage = createReactClass({
     }
 
     return (
-      <DocumentTitle title="Graylog Enterprise">
+      <DocumentTitle title="DNS AM-Trap Enterprise">
         <div>
-          <PageHeader title="Graylog Enterprise">
+          <PageHeader title="DNS AM-Trap Enterprise">
             {null}
 
             <span>
-              Graylog Enterprise adds commercial functionality to the Open Source Graylog core. You can learn more
-              about Graylog Enterprise and order a license on the <a href={orderLink} target="_blank">product page</a>.
+              DNS AM-Trap Enterprise adds commercial functionality to the Open Source DNS AM-Trap core. You can learn more
+              about DNS AM-Trap Enterprise and order a license on the <a href={orderLink} target="_blank">product page</a>.
             </span>
 
             <span>

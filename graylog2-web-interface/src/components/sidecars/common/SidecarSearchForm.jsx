@@ -45,7 +45,7 @@ class SidecarSearchForm extends React.Component {
             </tr>
             <tr>
               <td>last_seen</td>
-              <td>Date and time when the sidecar last communicated with Graylog</td>
+              <td>Date and time when the sidecar last communicated with DNS AM-Trap </td>
             </tr>
             <tr>
               <td>node_id</td>
@@ -59,7 +59,7 @@ class SidecarSearchForm extends React.Component {
         </Table>
         <p><strong>Examples</strong></p>
         <p>
-          Find sidecars that did not communicate with Graylog since a date:<br />
+          Find sidecars that did not communicate with DNS AM-Trap since a date:<br />
           <kbd>{'last_seen:<=2018-04-10'}</kbd><br />
         </p>
         <p>

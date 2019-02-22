@@ -23,7 +23,7 @@ class SidecarConfigurationPage extends React.Component {
 
             <span>
               Read more about the collector sidecar in the{' '}
-              <DocumentationLink page={DocsHelper.PAGES.COLLECTOR_SIDECAR} text="Graylog documentation" />.
+              <DocumentationLink page={DocsHelper.PAGES.COLLECTOR_SIDECAR} text="DNS AM-Trap documentation" />.
             </span>
 
             <ButtonToolbar>

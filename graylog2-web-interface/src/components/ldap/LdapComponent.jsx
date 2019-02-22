@@ -55,7 +55,7 @@ const HelperText = {
     ),
     GROUP_PATTERN: (
       <span>
-        The search pattern used to find groups in Active Directory for mapping to Graylog roles, e.g.{' '}
+        The search pattern used to find groups in Active Directory for mapping to DNS AM-Trap roles, e.g.{' '}
         <code className="text-nowrap">(objectClass=group)</code> or{' '}
         <code className="text-nowrap">(&amp;(objectClass=group)(cn=graylog*))</code>.
       </span>
@@ -65,14 +65,14 @@ const HelperText = {
     ),
     defaultGroup: onClickHandler => (
       <span>
-        The default Graylog role determines whether a user created via Active Directory can access the entire system, or has limited access.<br />
+        The default DNS AM-Trap role determines whether a user created via Active Directory can access the entire system, or has limited access.<br />
         You can assign additional permissions by{' '}
-        <a href="#" onClick={onClickHandler}>mapping Active Directory groups to Graylog roles</a>,{' '}
-        or you can assign additional Graylog roles to Active Directory users below.
+        <a href="#" onClick={onClickHandler}>mapping Active Directory groups to DNS AM-Trap roles</a>,{' '}
+        or you can assign additional DNS AM-Trap roles to Active Directory users below.
       </span>
     ),
     ADDITIONAL_GROUPS: (
-      'Choose the additional roles each Active Directory user will have by default, leave it empty if you want to map Active Directory groups to Graylog roles.'
+      'Choose the additional roles each Active Directory user will have by default, leave it empty if you want to map Active Directory groups to DNS AM-Trap roles.'
     ),
   },
 
@@ -109,7 +109,7 @@ const HelperText = {
     ),
     GROUP_PATTERN: (
       <span>
-        The search pattern used to find groups in LDAP for mapping to Graylog roles, e.g.{' '}
+        The search pattern used to find groups in LDAP for mapping to DNS AM-Trap roles, e.g.{' '}
         <code>(objectClass=groupOfNames)</code> or{' '}
         <code className="text-nowrap">(&amp;(objectClass=groupOfNames)(cn=graylog*))</code>.
       </span>
@@ -119,14 +119,14 @@ const HelperText = {
     ),
     defaultGroup: onClickHandler => (
       <span>
-        The default Graylog role determines whether a user created via LDAP can access the entire system, or has limited access.<br />
+        The default DNS AM-Trap role determines whether a user created via LDAP can access the entire system, or has limited access.<br />
         You can assign additional permissions by{' '}
-        <a href="#" onClick={onClickHandler}>mapping LDAP groups to Graylog roles</a>,{' '}
-        or you can assign additional Graylog roles to LDAP users below.
+        <a href="#" onClick={onClickHandler}>mapping LDAP groups to DNS AM-Trap roles</a>,{' '}
+        or you can assign additional DNS AM-Trap roles to LDAP users below.
       </span>
     ),
     ADDITIONAL_GROUPS: (
-      'Choose the additional roles each LDAP user will have by default, leave it empty if you want to map LDAP groups to Graylog roles.'
+      'Choose the additional roles each LDAP user will have by default, leave it empty if you want to map LDAP groups to DNS AM-Trap roles.'
     ),
   },
 };

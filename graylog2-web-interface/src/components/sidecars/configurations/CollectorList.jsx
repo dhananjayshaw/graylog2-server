@@ -53,7 +53,7 @@ const CollectorList = createReactClass({
             <h2>Log Collectors <small>{total} total</small></h2>
           </Col>
           <Col md={12}>
-            <p>Manage Log Collectors that you can configure and supervise through Graylog Sidecar and Graylog Web Interface.</p>
+            <p>Manage Log Collectors that you can configure and supervise through DNS AM-Trap Sidecar and DNS AM-Trap Web Interface.</p>
           </Col>
         </Row>
 

@@ -6,8 +6,8 @@ import lodash from 'lodash';
 import SupportLink from 'components/support/SupportLink';
 
 const LIFECYCLE_DEFAULT_MESSAGES = {
-  experimental: 'This Graylog feature is new and should be considered experimental.',
-  legacy: 'This feature has been discontinued and will be removed in a future Graylog version.',
+  experimental: 'This DNS AM-Trap feature is new and should be considered experimental.',
+  legacy: 'This feature has been discontinued and will be removed in a future DNS AM-Trap version.',
 };
 
 /**

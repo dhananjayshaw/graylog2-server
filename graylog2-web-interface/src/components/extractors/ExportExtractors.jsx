@@ -40,7 +40,7 @@ const ExportExtractors = createReactClass({
       extractors: this.state.extractors.map((extractor) => {
         const copy = {};
 
-        // Create Graylog 1.x compatible export format.
+        // Create DNS AM-Trap 1.x compatible export format.
         // TODO: This should be done on the server.
         Object.keys(extractor).forEach((key) => {
           switch (key) {

@@ -19,7 +19,7 @@ const DSVHTTPAdapterDocumentation = () => {
       <h4 style={{ marginBottom: 10 }}>CSV file requirements:</h4>
       <ul className="no-padding">
         <li>The file uses <strong>utf-8</strong> encoding</li>
-        <li>The file is accessible using the same URL by <strong>every</strong> Graylog server node</li>
+        <li>The file is accessible using the same URL by <strong>every</strong> DNS AM-Trap server node</li>
       </ul>
     </Alert>
 

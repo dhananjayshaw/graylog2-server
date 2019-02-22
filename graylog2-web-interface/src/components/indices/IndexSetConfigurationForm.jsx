@@ -112,7 +112,7 @@ class IndexSetConfigurationForm extends React.Component {
         strategy: this.props.indexSet.rotation_strategy_class,
       };
       rotationConfig = (<IndexMaintenanceStrategiesConfiguration title="Index Rotation Configuration"
-                                                                 description="Graylog uses multiple indices to store documents in. You can configure the strategy it uses to determine when to rotate the currently active write index."
+                                                                 description="DNS AM-Trap uses multiple indices to store documents in. You can configure the strategy it uses to determine when to rotate the currently active write index."
                                                                  selectPlaceholder="Select rotation strategy"
                                                                  pluginExports={PluginStore.exports('indexRotationConfig')}
                                                                  strategies={this.props.rotationStrategies}
@@ -130,7 +130,7 @@ class IndexSetConfigurationForm extends React.Component {
         strategy: this.props.indexSet.retention_strategy_class,
       };
       retentionConfig = (<IndexMaintenanceStrategiesConfiguration title="Index Retention Configuration"
-                                                                  description="Graylog uses a retention strategy to clean up old indices."
+                                                                  description="DNS AM-Trap uses a retention strategy to clean up old indices."
                                                                   selectPlaceholder="Select retention strategy"
                                                                   pluginExports={PluginStore.exports('indexRetentionConfig')}
                                                                   strategies={this.props.retentionStrategies}

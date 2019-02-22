@@ -28,7 +28,7 @@ const PluginList = createReactClass({
     return (
       <Row className="content">
         <Col md={12}>
-          <p>This is the status of Graylog Enterprise modules in this cluster:</p>
+          <p>This is the status of DNS AM-Trap Enterprise modules in this cluster:</p>
           <ul className={style.enterprisePlugins}>
             {enterprisePluginList}
           </ul>

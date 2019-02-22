@@ -15,7 +15,7 @@ class SidecarsPage extends React.Component {
         <span>
           <PageHeader title="Sidecars Overview">
             <span>
-              The Graylog sidecars can reliably forward contents of log files or Windows EventLog from your servers.
+              The DNS AM-Trap sidecars can reliably forward contents of log files or Windows EventLog from your servers.
             </span>
 
             <span>

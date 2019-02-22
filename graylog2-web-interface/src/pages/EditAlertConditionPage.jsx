@@ -69,7 +69,7 @@ const EditAlertConditionPage = createReactClass({
         <div>
           <PageHeader title={<span>Condition <em>{condition.title || 'Untitled'}</em></span>}>
             <span>
-              Define an alert condition and configure the way Graylog will notify you when that condition is satisfied.
+              Define an alert condition and configure the way DNS AM-Trap will notify you when that condition is satisfied.
             </span>
 
             <span>

@@ -50,7 +50,7 @@ const TimesList = createReactClass({
             <dd><Timestamp dateTime={time} format={timeFormat} /></dd>
             <dt>Your web browser:</dt>
             <dd><Timestamp dateTime={time} format={timeFormat} tz={'browser'} /></dd>
-            <dt>Graylog server:</dt>
+            <dt>DNS AM-Trap server:</dt>
             <dd><Timestamp dateTime={time} format={timeFormat} tz={serverTimezone} /></dd>
           </dl>
         </Col>

@@ -66,12 +66,12 @@ class SidecarStatusPage extends React.Component {
         <span>
           <PageHeader title={<span>Sidecar <em>{sidecar.node_name} status</em></span>}>
             <span>
-              A status overview of the Graylog Sidecar.
+              A status overview of the DNS AM-Trap Sidecar.
             </span>
 
             <span>
               Read more about sidecars and how to set them up in the
-              {' '}<DocumentationLink page={DocsHelper.PAGES.COLLECTOR_STATUS} text="Graylog documentation" />.
+              {' '}<DocumentationLink page={DocsHelper.PAGES.COLLECTOR_STATUS} text="DNS AM-Trap documentation" />.
             </span>
 
             <ButtonToolbar>

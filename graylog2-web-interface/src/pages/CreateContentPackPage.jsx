@@ -65,7 +65,7 @@ const CreateContentPackPage = createReactClass({
         },
         (response) => {
           const message = 'Error importing content pack, please ensure it is a valid JSON file. Check your ' +
-            'Graylog logs for more information.';
+            'DNS AM-Trap  logs for more information.';
           const title = 'Could not import content pack';
           let smallMessage = '';
           if (response.additional && response.additional.body && response.additional.body.message) {
@@ -97,7 +97,7 @@ const CreateContentPackPage = createReactClass({
 
             <span>
               Find more content packs in {' '}
-              <a href="https://marketplace.graylog.org/" target="_blank" rel="noopener noreferrer">the Graylog Marketplace</a>.
+              <a href="https://marketplace.graylog.org/" target="_blank" rel="noopener noreferrer">the DNS AM-Trap Marketplace</a>.
             </span>
 
             <div>

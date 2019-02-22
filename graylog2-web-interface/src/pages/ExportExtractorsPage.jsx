@@ -46,7 +46,7 @@ const ExportExtractorsPage = createReactClass({
           <PageHeader title={<span>Export extractors of <em>{this.state.input.title}</em></span>}>
             <span>
               The extractors of an input can be exported to JSON for importing into other setups
-              or sharing in <a href="https://marketplace.graylog.org/" target="_blank">the Graylog Marketplace</a>.
+              or sharing in <a href="https://marketplace.graylog.org/" target="_blank">the DNS AM-Trap Marketplace</a>.
             </span>
           </PageHeader>
           <ExportExtractors input={this.state.input} />

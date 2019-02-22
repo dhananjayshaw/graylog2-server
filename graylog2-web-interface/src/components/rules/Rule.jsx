@@ -36,11 +36,11 @@ class Rule extends React.Component {
           <span>
             Rules are a way of applying changes to messages in Graylog. A rule consists of a condition and a list{' '}
             of actions.{' '}
-            Graylog evaluates the condition against a message and executes the actions if the condition is satisfied.
+            DNS AM-Trap evaluates the condition against a message and executes the actions if the condition is satisfied.
           </span>
 
           <span>
-            Read more about Graylog pipeline rules in the <DocumentationLink page={DocsHelper.PAGES.PIPELINE_RULES}
+            Read more about DNS AM-Trap pipeline rules in the <DocumentationLink page={DocsHelper.PAGES.PIPELINE_RULES}
                                                                              text="documentation" />.
           </span>
 

@@ -28,7 +28,7 @@ class PageErrorOverview extends React.Component {
     return (
       <ul>
         {formattedErrors}
-        <li>Check your Graylog logs for more information.</li>
+        <li>Check your DNS AM-Trap logs for more information.</li>
       </ul>
     );
   };

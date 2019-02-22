@@ -46,7 +46,7 @@ const ImportExtractorsPage = createReactClass({
           <PageHeader title={<span>Import extractors to <em>{this.state.input.title}</em></span>}>
             <span>
               Exported extractors can be imported to an input. All you need is the JSON export of extractors from any
-              other Graylog setup or from <a href="https://marketplace.graylog.org/" target="_blank">the Graylog
+              other DNS AM-Trap setup or from <a href="https://marketplace.graylog.org/" target="_blank">the DNS AM-Trap 
               Marketplace</a>.
             </span>
           </PageHeader>

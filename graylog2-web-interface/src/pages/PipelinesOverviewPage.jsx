@@ -20,7 +20,7 @@ class PipelinesOverviewPage extends React.Component {
               rules are evaluated and applied. Messages can go through one or more stages.
             </span>
             <span>
-              Read more about Graylog pipelines in the <DocumentationLink page={DocsHelper.PAGES.PIPELINES} text="documentation" />.
+              Read more about DNS AM-Trap pipelines in the <DocumentationLink page={DocsHelper.PAGES.PIPELINES} text="documentation" />.
             </span>
 
             <span>

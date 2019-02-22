@@ -135,7 +135,7 @@ const ShowContentPackPage = createReactClass({
 
             <span>
               Find more content packs in {' '}
-              <a href="https://marketplace.graylog.org/" target="_blank" rel="noopener noreferrer">the Graylog Marketplace</a>.
+              <a href="https://marketplace.graylog.org/" target="_blank" rel="noopener noreferrer">the DNS AM-Trap Marketplace</a>.
             </span>
 
             <ButtonToolbar>

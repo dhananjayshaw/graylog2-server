@@ -24,7 +24,7 @@ const AlertsPage = createReactClass({
         <div>
           <PageHeader title="Alerts overview">
             <span>
-              Alerts are triggered when conditions you define are satisfied. Graylog will automatically mark alerts as
+              Alerts are triggered when conditions you define are satisfied. DNS AM-Trap will automatically mark alerts as
               resolved once the status of your conditions change.
             </span>
 

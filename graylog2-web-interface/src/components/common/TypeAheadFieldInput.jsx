@@ -15,7 +15,7 @@ import fetch from 'logic/rest/FetchProvider';
 
 /**
  * Component that renders an input offering auto-completion for message fields.
- * Fields are loaded from the Graylog server in the background.
+ * Fields are loaded from the DNS AM-Trap server in the background.
  */
 class TypeAheadFieldInput extends React.Component {
   static propTypes = {

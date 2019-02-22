@@ -27,7 +27,7 @@ class SearchExecutionError extends React.Component {
             </h1>
 
             <div>
-              <p>There was an error executing your search. Please check your Graylog server logs for more information.</p>
+              <p>There was an error executing your search. Please check your DNS AM-Trap server logs for more information.</p>
               <Panel bsStyle="danger">
                 <dl style={{ marginBottom: 0 }}>
                   <dt>Error Message:</dt>

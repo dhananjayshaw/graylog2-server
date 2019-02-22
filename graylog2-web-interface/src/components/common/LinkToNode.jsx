@@ -11,10 +11,10 @@ import Routes from 'routing/Routes';
 import { Spinner } from 'components/common';
 
 /**
- * Component that creates a link to a Graylog node. The information in the link includes:
- *  - Marker indicating whether the Graylog node is master or not
- *  - Short Graylog node ID
- *  - Graylog node hostname
+ * Component that creates a link to a DNS AM-Trap node. The information in the link includes:
+ *  - Marker indicating whether the DNS AM-Trap node is master or not
+ *  - Short DNS AM-Trap node ID
+ *  - DNS AM-Trap node hostname
  *
  * All this information will be obtained from the `NodesStore`.
  */

@@ -7,7 +7,7 @@ const SupportSources = () => (
   <div className="support-sources">
     <h2>Need help?</h2>
     <p>
-      Do not hesitate to consult the Graylog community if your questions are not answered in the{' '}
+      Do not hesitate to consult the DNS AM-Trap community if your questions are not answered in the{' '}
       <DocumentationLink page={DocsHelper.PAGES.WELCOME} text="documentation" />.
     </p>
 

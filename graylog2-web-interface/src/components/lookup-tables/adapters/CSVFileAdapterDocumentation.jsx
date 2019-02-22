@@ -23,7 +23,7 @@ class CSVFileAdapterDocumentation extends React.Component {
         <ul className="no-padding">
           <li>The first line in the CSV file needs to be a list of field/column names</li>
           <li>The file uses <strong>utf-8</strong> encoding</li>
-          <li>The file is readable by <strong>every</strong> Graylog server node</li>
+          <li>The file is readable by <strong>every</strong> DNS AM-Trap server node</li>
         </ul>
       </Alert>
 
