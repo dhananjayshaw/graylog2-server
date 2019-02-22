@@ -25,6 +25,7 @@ dependency-reduced-pom.xml
 /misc/elasticsearch.yml.dev
 /misc/convert_rsyslog_db_to_mongo.rb
 
+/node_modules/
 /plugin/
 *_gl2plugin.jar
 
