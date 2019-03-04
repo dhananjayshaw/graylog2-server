@@ -161,7 +161,7 @@
     "@navbar-inverse-color": "@gray-light",
     "@navbar-inverse-bg": "@gray-darker",
     "@navbar-inverse-border": "darken(@navbar-inverse-bg, 10%)",
-    "@navbar-inverse-link-color": "@gray-light",
+    "@navbar-inverse-link-color": "#eeef00",
     "@navbar-inverse-link-hover-color": "#fff",
     "@navbar-inverse-link-hover-bg": "transparent",
     "@navbar-inverse-link-active-color": "@navbar-inverse-link-hover-color",
